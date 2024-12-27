@@ -25,9 +25,6 @@
 #define SFE_CREATE_FLAG_REMARK_DSCP BIT(2)
 					/* Indicates that we should remark DSCP of packet */
 
-int sfe_cm_recv(struct sk_buff *skb);
-int sfe_cm_device_event(struct notifier_block *this, unsigned long event, void *ptr);
-
 /*
  * IPv6 address structure
  */
